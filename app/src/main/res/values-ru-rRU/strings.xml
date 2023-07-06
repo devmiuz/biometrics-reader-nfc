@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UZID</string>
+
+    <string name="understood">Понятно</string>
+    <string name="cancel">Отменить</string>
+    <string name="ready">Готово</string>
+    <string name="first_name">Имя:</string>
+    <string name="last_name">Фамилия:</string>
+    <string name="country">Страна:</string>
+    <string name="document_number">Номер документа:</string>
+    <string name="document_type">Тип документа:</string>
+    <string name="date_of_expiry">Срок годности:</string>
+    <string name="nationality">Национальность:</string>
+    <string name="gender">Пол:</string>
+    <string name="date_of_birth">День рождения:</string>
+    <string name="full_info">Полная информация</string>
+    <string name="enter_number_document">Введите номер документа</string>
+    <string name="number_document">Номер документа</string>
+    <string name="enter_birth_date">Введите дату рождения</string>
+    <string name="enter_date_format">ДД.MM.ГГГГ</string>
+    <string name="enter_date_expiry">Введите срок годности</string>
+    <string name="next">Далее</string>
+    <string name="tech_passport">Технический паспорт</string>
+    <string name="or_qrcode_scan">Сканирование Qr кода</string>
+    <string name="info">Мгновенная проверка личности,\nс высоким уровнем безопастности.</string>
+    <string name="id_card">ID Карта</string>
+    <string name="passport">Паспорт</string>
+    <string name="driver_license">Водительское удостоверение</string>
+    <string name="about">О приложении</string>
+    <string name="brief_info">Собранные данные</string>
+    <string name="idcard_nfc_instruct">Направьте камеру телефона на заднюю часть ID карты</string>
+    <string name="passport_nfc_instruct">Направьте камеру телефона на заднюю часть паспорта</string>
+    <string name="card_instruct">Приложите ID-КАРТУ на заднюю часть телефона.</string>
+    <string name="start_nfc_scan">Начать сканирование</string>
+    <string name="user_sign">Знак пользователя:</string>
+    <string name="enter_date_of_given_tech_passport">Введите дату выдачи</string>
+    <string name="enter_data_manual">Введите данные вручную</string>
+    <string name="enter_car_number">Введите номер автомобиля</string>
+    <string name="car_number">Номер автомобиля</string>
+    <string name="date_of_given_tech_passport">Дата выдачи</string>
+    <string name="error_scan">Ошибка при сканировании</string>
+    <string name="successfully_scanned">Отсканировано</string>
+    <string name="enter_licence_number">Введите номер лицензии</string>
+    <string name="pinfl">ПИНФЛ/STIR</string>
+    <string name="engine_power">Мощность двигателя</string>
+    <string name="color">Цвет</string>
+    <string name="special_marks">Специальные знаки</string>
+    <string name="ubdd_name">УБДД</string>
+    <string name="man_year">Год производства</string>
+    <string name="license_num">Номер лицензии</string>
+    <string name="shassi_ID">Номер шасси</string>
+    <string name="engine_num">Номер двигателя</string>
+    <string name="issue_date">Дата выдачи</string>
+    <string name="model_name">Название модели</string>
+    <string name="num_standees">Номер стендов</string>
+    <string name="comp_name">Имя компьютера</string>
+    <string name="curb_weight">Снаряженная масса</string>
+    <string name="comp_type">Тип компьютера</string>
+    <string name="gross_weight">Общий вес</string>
+    <string name="fuel_type">Тип топлива</string>
+    <string name="middle_name">Отчество</string>
+    <string name="num_seats">Количество посадочных мест</string>
+    <string name="expire_date">Срок годности</string>
+    <string name="kuzov_ID">Номер кузова</string>
+    <string name="mark_name">Марка</string>
+    <string name="reg_num">Номер автомобиля</string>
+    <string name="vehicle_type">Тип автомобиля</string>
+    <string name="about_iduz"><![CDATA[Приложение <b>UZID</b> считывает и проверяет чип <b>RFID</b>, встроенный в электронные документы, удостоверяющие личность, соответствующие требованиям ICAO (ePassport, или, в терминологии <b>ICAO Doc 9309, Machine Readable Travel Documents: MRTD</b>>. Приложение оптически сканирует машиночитаемую зону (<b>MRZ</b>), чтобы получить доступ к встроенному чипу. Затем он считывает встроенный чип и отображает биографические и биометрические данные держателя документа, а также информацию о документе, после чего выполняются проверки безопасности, такие как активная аутентификация, проверка подписи документа и проверка подписи страны, и отображаются подробные результаты.
+<p><br>Документы, содержащие <b>RFID</b>:</br></p>
+<br><b>ID Карта</b> – официальный документ, удостоверяющий личность, используемый в том числе в электронных системах разных уровней назначений, выполненный в формате пластиковой карты содержащий фотографию, имя, личный номер, образец подписи, биометрическую информацию о держателе карты в текстовом, машиночитаемым и электронном видах.</br></br>
+<br><br><b>Биометрический паспорт</b> - официальный документ, удостоверяющий личность, используемый в том числе в электронных системах разных уровней назначений, в бумажном формате содержащий фотографию, имя, личный номер, образец подписи, биометрическую информацию о держателе карты в текстовом, машиночитаемым и электронном видах.</br></br>
+<br><br><b>Тех. Паспорт</b> -  документ, в форме пластиковой карты содержащий в себе всю информацию о технических характеристиках транспортного средства и данные об учете в ГУБДД. Все персональные данные также сохраняются в электронном формате в чипе документа.</br></br>
+<br><br><b>Водительское удостоверение</b> – официальный документ, подтверждающий о наличии прав держателя карты выполненный в форме пластиковой карты, имеющая несколько уровневую защиту от подделки. Содержит все персональные данные о водителе.]]>
+</string>
+    <string name="residence_address">Адрес проживания:</string>
+    <string name="birth_place">Место рождения:</string>
+    <string name="or_with_qr">Или на QR код</string>
+    <string name="user_pinfl">ПИНФЛ</string>
+
+</resources>

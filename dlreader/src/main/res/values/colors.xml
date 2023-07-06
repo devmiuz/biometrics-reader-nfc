@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey">#b0b1b3</color>
+
+    <color name="edit_text_color">#8e8588</color>
+
+    <color name="text_color_primary">#ffffff</color>
+    <color name="action_menu_color">#747272</color>
+    <color name="positive_balance">#01ca34</color>
+    <color name="negative_balance">#ca0b01</color>
+
+    <color name="colorSecondaryPrimary">#6a7ce1</color>
+    <color name="overlay_bg">#dfdcdc</color>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_rect_oval_white"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/tvTitleInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/idcard_nfc_instruct"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/ivCardType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector_id_card"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:id="@+id/tvTitleQr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or_with_qr"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/ivQrCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector_qr_code_read_instruct"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:textSize="17sp"
+        android:background="@drawable/bg_button_blue_active"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/understood"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>

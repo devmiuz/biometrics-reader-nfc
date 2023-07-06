@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="understood">Тушунарли</string>
+    <string name="cancel">Бeкор қилиш</string>
+    <string name="ready">Тайёр</string>
+    <string name="first_name">Исми:</string>
+    <string name="last_name">Фамилияси:</string>
+    <string name="country">Мамлакат:</string>
+    <string name="document_number">Ҳужжат рақами:</string>
+    <string name="document_type">Ҳужжат тури:</string>
+    <string name="date_of_expiry">Амал қилиш муддати:</string>
+    <string name="nationality">Миллати:</string>
+    <string name="gender">Жинси:</string>
+    <string name="date_of_birth">Туғилган куни:</string>
+    <string name="full_info">Тўлиқ маълумот</string>
+    <string name="enter_number_document">Ҳужжат рақамини киритинг</string>
+    <string name="number_document">Ҳужжат рақами</string>
+    <string name="enter_birth_date">Tуғилган кунни киритинг</string>
+    <string name="enter_date_format">КК.ОО.ЙЙЙЙ</string>
+    <string name="enter_date_expiry">Амал қилиш муддатини киритинг</string>
+    <string name="next">Кейинги</string>
+    <string name="tech_passport">Техник паспорт</string>
+    <string name="or_qrcode_scan">Qr кодини сканерлаш</string>
+    <string name="info">Юқори даражадаги хавфсизлик билан шахсни дарҳол текшириш.</string>
+    <string name="id_card">ID Карта</string>
+    <string name="passport">Паспорт</string>
+    <string name="driver_license">Ҳайдовчилик гувоҳномаси</string>
+    <string name="about">Ҳақида</string>
+    <string name="brief_info">Тўпланган маълумотлар</string>
+    <string name="idcard_nfc_instruct">Телефон камерасини ID картанинг орқа томонига йўналтиринг</string>
+    <string name="passport_nfc_instruct">Телефон камерасини паспортингизнинг машинада ўқиладиган зонасига (MRZ) йўналтиринг</string>
+    <string name="card_instruct">ID-КАРТАни телефонингизнинг орқа қисмига теккизинг.</string>
+    <string name="start_nfc_scan">Сканер қилишни бошлаш</string>
+    <string name="user_sign">Фойдаланувчи белгиси:</string>
+    <string name="enter_date_of_given_tech_passport">Берилган санасини киритинг</string>
+    <string name="enter_data_manual">Маълумотларни қўлда киритинг</string>
+    <string name="enter_car_number">Автомобил рақамини киритинг</string>
+    <string name="car_number">Автомобил рақами</string>
+    <string name="date_of_given_tech_passport">Берилган санаси</string>
+    <string name="error_scan">Сканер қилишда хатолик</string>
+    <string name="successfully_scanned">Сканер қилинди</string>
+    <string name="enter_licence_number">Лицензия рақамини киритинг</string>
+    <string name="pinfl">JSH SHIR/STIR</string>
+    <string name="engine_power">Двигател кучи</string>
+    <string name="color">Ранги</string>
+    <string name="special_marks">Махсус белгилар</string>
+    <string name="ubdd_name">ЙҲХБ номи</string>
+    <string name="man_year">Ишлаб чиқарилган йили</string>
+    <string name="license_num">Лицензия рақами</string>
+    <string name="shassi_ID">Шасси рақами</string>
+    <string name="engine_num">Двигател рақами</string>
+    <string name="issue_date">Берилган санаси</string>
+    <string name="model_name">Модел номи</string>
+    <string name="num_standees">Стендлар рақами</string>
+    <string name="comp_name">Компютер номи</string>
+    <string name="curb_weight">Жиловлаш оғирлиги</string>
+    <string name="comp_type">Компютер тури</string>
+    <string name="gross_weight">Умумий оғирлиги</string>
+    <string name="fuel_type">Ёқилғи тури</string>
+    <string name="middle_name">Отасининг исми</string>
+    <string name="num_seats">Ўриндиқ сони</string>
+    <string name="expire_date">Амал қилиш муддати</string>
+    <string name="kuzov_ID">Кузов рақами</string>
+    <string name="mark_name">Марка номи</string>
+    <string name="reg_num">Автомобил рақами</string>
+    <string name="vehicle_type">Автомобил тури</string>
+    <string name="about_iduz"><![CDATA[<b>UZID</b> ICAO (ePassport, ёки <b>ICAO Doc 9309 терминологиясида Machine Readable Travel Documents: MRTD</b>) талабларига жавоб берадиган, шахсни тасдиқловчиб электрон ҳужжатларга ўрнатилган <b>RFID</b> чипини ўқийдиган ва текширадиган илова. Илова ўрнатилган чипга кириш учун машинада ўқиладиган зонани (MRZ) оптик жиҳатдан сканер қилади. Сўнг ўрнатилган чипни ўқийди ва ҳужжат эгасининг биографик ва биометрик маълумотларини, шунингдек ҳужжат тўғрисидаги маълумотларни намойиш этади, кейин фаол аутентификация, ҳужжат имзосини текшириш ва мамлакат имзосини текшириш каби хавфсизлик текширувлари ўтказилади ва батафсил натижалар кўрсатилади.
+<p><br><b>RFID</b> ўз ичига киритган ҳужжатлар:</br></p>
+<br><b>ID karta</b> – шахсни тасдиқловчи расмий ҳужжат, шу жумладан ҳар хил даражадаги электрон тизимларда қўлланиладиган, фотосурати, исми, шахсий рақами, имзо намунаси, карта эгаси тўғрисидаги биометрик маълумотларни матн, машинада ўқиладиган ва электрон шаклларда ўз ичига киритган пластик карта шаклида ишлаб чиқарилган ҳужжат.</br></br>
+<br><br><b>Биометрик паспорт</b> – шахсни тасдиқловчи расмий ҳужжат, шу жумладан ҳар хил даражадаги электрон тизимларда қўлланиладиган, фотосурати, исми, шахсий рақами, имзо намунаси, карта эгаси тўғрисидаги биометрик маълумотларни матн, машинада ўқиладиган ва электрон шаклларда ўз ичига киритган қоғоз форматида ишлаб чиқарилган ҳужжат.</br></br>
+<br><br><b>Техник паспорт</b> – транспорт воситасининг техник хусусиятлари ва ЙҲХБда рўйхатдан ўтиш тўғрисидаги таълумотларга оид барча маълумотларни ўз ичига киритган, пластик карта шаклидаги ҳужжат. Барча шахсий маълумотлар ҳам электрон тарзда ҳужжат чипида сақланади.</br></br>
+<br><br><b>Ҳайдовчилик гувоҳномаси</b> – пластик карта шаклида ишлаб чиқилган, қалбакилаштиришдан қўп даражали ҳимояга эга бўлган, карта эгасининг ҳуқуқларини тасдиқловчи расмий ҳужжат. Ҳайдовчи ҳақидаги барча шахсий маълумотларни ўз ичига киритади.]]>
+</string>
+    <string name="residence_address">Яшаш манзили:</string>
+    <string name="birth_place">Туғилган жойи:</string>
+    <string name="invalid_date_of_birth">Нотўғри маълумот киритилди</string>
+    <string name="invalid_date_of_expiry">Нотўғри маълумот киритилди</string>
+    <string name="or_with_qr">Ёки QR коди бўйича</string>
+
+</resources>

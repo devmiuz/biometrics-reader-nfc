@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="corn.cardreader">
+
+    <application
+            android:allowBackup="true"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:node="replace">
+
+<!--        <activity android:name=".ui.InputActivity"-->
+<!--            android:theme="@style/AppTheme"-->
+<!--            >-->
+
+            <!-- <action android:name="android.nfc.action.TAG_DISCOVERED"/> -->
+<!--        </activity>-->
+
+<!--        <activity android:name=".ui.MainActivity">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN"/>-->
+
+<!--                <category android:name="android.intent.category.DEFAULT"/>-->
+<!--                <category android:name="android.intent.category.LAUNCHER"/>-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+<!--        <activity android:name=".ui.CustomPinActivity"/>-->
+
+<!--        <activity android:name=".ui.DrivingLicenseInfoActivity"/>-->
+
+<!--        <activity android:name=".cadastre.ui.CadastreMainActivity"/>-->
+
+<!--        <activity android:name=".cadastre.ui.CadastreAddActivity"/>-->
+
+<!--        <activity android:name=".cadastre.ui.CadastreInfoActivity"/>-->
+
+<!--        <activity android:name=".tech_card.util.TechCardActivity"/>-->
+
+    </application>
+
+</manifest>

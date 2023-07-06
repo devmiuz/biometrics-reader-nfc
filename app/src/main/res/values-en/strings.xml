@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UZID</string>
+
+    <string name="understood">Got it</string>
+    <string name="cancel">Cancel</string>
+    <string name="ready">Ready</string>
+    <string name="first_name">First name:</string>
+    <string name="last_name">Last name:</string>
+    <string name="country">Country:</string>
+    <string name="document_number">Document Number:</string>
+    <string name="document_type">Type of document:</string>
+    <string name="date_of_expiry">Expiry date:</string>
+    <string name="nationality">Nationality:</string>
+    <string name="gender">Sex:</string>
+    <string name="date_of_birth">Date of birth:</string>
+    <string name="full_info">Complete information</string>
+    <string name="enter_number_document">Enter the document number</string>
+    <string name="number_document">Document number</string>
+    <string name="enter_birth_date">Enter date of birth</string>
+    <string name="enter_date_format">DD.MM.YYYY</string>
+    <string name="enter_date_expiry">Enter expiration date</string>
+    <string name="next">Next</string>
+    <string name="tech_passport">Technical passport</string>
+    <string name="or_qrcode_scan">Scanning Qr code</string>
+    <string name="info">Instant identity verification,\nwith high security.</string>
+    <string name="id_card">ID Card</string>
+    <string name="passport">Passport</string>
+    <string name="driver_license">Driver\'s License</string>
+    <string name="about">About</string>
+    <string name="brief_info">Data collected</string>
+    <string name="idcard_nfc_instruct"> Point your phone camera at the back of the ID card</string>
+    <string name="passport_nfc_instruct">Point your phone camera at your passport\'s machine readable zone (MRZ)</string>
+    <string name="card_instruct">Place your ID CARD on the back of your phone.</string>
+    <string name="start_nfc_scan">Start scanning</string>
+    <string name="user_sign">User signature:</string>
+    <string name="enter_date_of_given_tech_passport">Date of issue</string>
+    <string name="enter_data_manual">Enter the data manually</string>
+    <string name="enter_car_number">Enter license plate number</string>
+    <string name="car_number">License plate number</string>
+    <string name="date_of_given_tech_passport">Date of issue</string>
+    <string name="error_scan">Scanning error</string>
+    <string name="successfully_scanned">Successfully scanned</string>
+    <string name="enter_licence_number">Enter license number</string>
+    <string name="pinfl">Pinfl/STIR</string>
+    <string name="engine_power">Engine power</string>
+    <string name="color">Color</string>
+    <string name="special_marks">Special signs</string>
+    <string name="ubdd_name">UBDD</string>
+    <string name="man_year">Production year</string>
+    <string name="license_num">License number</string>
+    <string name="shassi_ID">Chassis number</string>
+    <string name="engine_num">Engine number</string>
+    <string name="issue_date">Date of issue</string>
+    <string name="model_name">Model name</string>
+    <string name="num_standees">Booth number</string>
+    <string name="comp_name">Computer name</string>
+    <string name="curb_weight">Kerb weight</string>
+    <string name="comp_type">Computer type</string>
+    <string name="gross_weight">Total weight</string>
+    <string name="fuel_type">Fuel type</string>
+    <string name="middle_name">Middle name</string>
+    <string name="num_seats">Seating capacity</string>
+    <string name="expire_date">Expiry date</string>
+    <string name="kuzov_ID">Vehicle Identification Number (VIN)</string>
+    <string name="mark_name">Car model</string>
+    <string name="reg_num">License plate number</string>
+    <string name="vehicle_type">Vehicle type</string>
+    <string name="about_iduz"><![CDATA[<b>UZID</b> application reads and checks <b>RFID</b> chip embedded into the identity documents that meets ICAO requirements (ePassport or <b>Machine Readable Travel Documents (MRTD) in ICAO Doc 9309 terminology</b>). The applications scans Machine Readable Zone (<b>MRZ</b>) for accessing the chip. Then it reads the chip and shows the document holder’s biographic and biometric information as well as checking security such as active authentication, checking document’s and issuing country’s signature and showing detailed results.
+<p><br><b>RFID</b> documents:</br></p>
+<br><b>ID card</b> is an official document that proofs an identity that is used in electronic systems of different levels of purposes. The document is a plastic card that contains the cardholder’s photo, personal number, signature and biometric information in textual, machine readable and electronic formats.</br></br>
+<br><br><b>Biometric passport</b> is an official document that proofs an identity that is used in electronic systems of different levels of purposes. The document is a paper that contains the cardholder’s photo, personal number, signature and biometric information in textual, machine readable and electronic formats.</br></br>
+<br><br><b>Vehicle license</b> is a document in a plastic card format that contains information about the technical characteristics of a vehicle and registration data in the traffic police (GUBDD???). Every information is written to the chip as well.</br></br>
+<br><br><b>Driving license</b> is an official document that confirms the rights of the cardholder that contains personal information about the driver. The documents is a plastic card that has several levels of forgery protection.]]>
+    </string>
+    <string name="residence_address">Residence address:</string>
+    <string name="birth_place">Place of birth:</string>
+    <string name="invalid_date_of_birth">Data entry error</string>
+    <string name="invalid_date_of_expiry">Data entry error</string>
+    <string name="or_with_qr">Or by QR code</string>
+    <string name="user_pinfl">PINFL</string>
+</resources>

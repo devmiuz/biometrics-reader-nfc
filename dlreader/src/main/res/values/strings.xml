@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Card Reader</string>
+
+    <!-- info  activity labels -->
+    <string name="user_name_title">Full name</string>
+    <string name="user_eg_name">Andrew Smith</string>
+    <string name="license_num_title">Licence number</string>
+    <string name="licence_num_eg">BH 1256/25698632</string>
+    <string name="birthplace_title">Birthplace</string>
+    <string name="birthplace_eg">24th Street, Sacramento, CA</string>
+    <string name="birthdate_title">Birth date</string>
+    <string name="birthdate_eg">03.05.1978</string>
+    <string name="residence_title">Residence</string>
+    <string name="residence_eg">24th Street, Sacramento, CA</string>
+    <string name="issue_place_title">Issue place</string>
+    <string name="issue_place_eg">Sacramento, CA</string>
+    <string name="issue_date_title">Issue date</string>
+    <string name="issue_date_eg">05.06.2001</string>
+    <string name="expiration_date_title">Expiration date</string>
+    <string name="expiration_date_eg">05.06.2019</string>
+    <string name="category_title">Category</string>
+    <string name="category_eg">B</string>
+
+    <string name="enable_nfc_msg_title">NFC is not enabled</string>
+    <string name="enable_nfc_msg">Do you want to enable NFC?</string>
+
+    <!-- dialog button texts-->
+    <string name="positive_btn">Yes</string>
+    <string name="cancel_btn">Cancel</string>
+
+    <!-- info activity tool bar titles-->
+    <string name="insert_card_title">Insert Your Card</string>
+    <string name="enable_nfc_title">Enable NFC</string>
+    <string name="retrieve_nfc_msg_title">Retrieving information</string>
+
+    <!-- NFC messages-->
+    <string name="nfc_enable_alert_message">Enable NFC</string>
+    <string name="loading_text">Loading...</string>
+    <string name="done_btn_toolbar">Done</string>
+
+    <!-- Error messages-->
+    <string name="fill_gaps_msg">Fill all fields</string>
+    <string name="auth_nfc_msg">Fields are filled incorrectly or a wrong card</string>
+    <string name="error_nfc_msg">Invalid card. Try again or connect with technical support team.</string>
+
+    <!-- MainActivity-->
+    <string name="license_btn_title">Driving License</string>
+    <string name="cadastre_btn_title">Cadastre</string>
+
+    <!-- CadastreMainActivity-->
+    <string name="object_type_title">Object type</string>
+    <string name="cadastre_num_title">Cadastre number</string>
+    <string name="area_cadastre_num_title">Area cadastre number</string>
+    <string name="building_cadastre_num_title">Building cadastre number</string>
+    <string name="area_title">Area</string>
+    <string name="owner_title">Property owner</string>
+    <string name="passport_title">Passport series and number</string>
+    <string name="id_title">Personal ID Number</string>
+    <string name="reg_num_date_title">Registration Date and Number</string>
+    <string name="address_title">Address</string>
+    <string name="taxpayer_ID_title">Taxpayer Identification Number</string>
+    <string name="legal_form_title">Legal Form</string>
+    <string name="property_own_portion_title">Property Owning Portion</string>
+    <string name="cadastre_value_title">Cadastre Value</string>
+    <string name="legal_doc_title">Legal Document Approvement of Property Ownership</string>
+
+    <!-- Menu Items-->
+    <string name="cadastres_menu_item">Cadastres</string>
+    <string name="my_cards_menu_item">My cards</string>
+
+    <string name="payment_menu_item">Payment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="payment_water_cold">Cold water</string>
+    <string name="payment_water_hot">Hot water</string>
+    <string name="payment_electricity">Electricity</string>
+    <string name="payment_gas">Gas</string>
+    <string name="payment_utilization">Utilization</string>
+    <string name="payment_tax">Tax</string>
+    <string name="reg_btn">Register</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_cadastre_menu_item">Delete</string>
+    <string name="cancel_menu_item">Cancel</string>
+
+</resources>

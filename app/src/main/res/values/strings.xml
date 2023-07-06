@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">IDUZ</string>
+
+    <string name="understood">Tushunarli</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="ready">Tayyor</string>
+    <string name="first_name">Ismi:</string>
+    <string name="last_name">Familiyasi:</string>
+    <string name="country">Mamlakat:</string>
+    <string name="document_number">Hujjat raqami:</string>
+    <string name="document_type">Hujjat turi:</string>
+    <string name="date_of_expiry">Amal qilish muddati:</string>
+    <string name="nationality">Millati:</string>
+    <string name="gender">Jinsi:</string>
+    <string name="date_of_birth">Tug\'ilgan kuni:</string>
+    <string name="full_info">To\'liq ma\'lumot</string>
+    <string name="enter_number_document">Hujjat raqamini kiriting</string>
+    <string name="number_document">Hujjat raqami</string>
+    <string name="enter_birth_date">Tug\'ilgan kunni kiriting</string>
+    <string name="enter_date_format">KK.OO.YYYY</string>
+    <string name="enter_date_expiry">Amal qilish muddatini kiriting</string>
+    <string name="next">Keyingi</string>
+    <string name="tech_passport">Texnik pasport</string>
+    <string name="or_qrcode_scan">Qr kodini skanerlash</string>
+    <string name="info">Yuqori darajadagi xavfsizlik bilan shaxsni darhol tekshirish.</string>
+    <string name="id_card">ID Karta</string>
+    <string name="passport">Pasport</string>
+    <string name="driver_license">Haydovchilik guvohnomasi</string>
+    <string name="about">Haqida</string>
+    <string name="brief_info">To\'plangan ma\'lumotlar</string>
+    <string name="idcard_nfc_instruct">Telefon kamerasini ID kartaning orqa tomoniga yo\'naltiring</string>
+    <string name="passport_nfc_instruct">Telefon kamerasini pasportingizning mashinada o\'qiladigan zonasiga (MRZ) yo\'naltiring</string>
+    <string name="card_instruct">ID-KARTAni telefoningizning orqa qismiga tekkizing.</string>
+    <string name="start_nfc_scan">Skaner qilishni boshlash</string>
+    <string name="user_sign">Foydalanuvchi belgisi:</string>
+    <string name="enter_date_of_given_tech_passport">Berilgan sanasini kiriting</string>
+    <string name="enter_data_manual">Ma\'lumotlarni qo\'lda kiriting</string>
+    <string name="enter_car_number">Avtomobil raqamini kiriting</string>
+    <string name="car_number">Avtomobil raqami</string>
+    <string name="date_of_given_tech_passport">Berilgan sanasi</string>
+    <string name="error_scan">Skaner qilishda xatolik</string>
+    <string name="successfully_scanned">Skaner qilindi</string>
+    <string name="enter_licence_number">Litsenziya raqamini kiriting</string>
+    <string name="pinfl">JSH SHIR/STIR</string>
+    <string name="engine_power">Dvigatel kuchi</string>
+    <string name="color">Rangi</string>
+    <string name="special_marks">Maxsus belgilar</string>
+    <string name="ubdd_name">YHXB nomi</string>
+    <string name="man_year">Ishlab chiqarilgan yili</string>
+    <string name="license_num">Litsenziya raqami</string>
+    <string name="shassi_ID">Shassi raqami</string>
+    <string name="engine_num">Dvigatel raqami</string>
+    <string name="issue_date">Berilgan sanasi:</string>
+    <string name="model_name">Model nomi</string>
+    <string name="num_standees">Stendlar raqami</string>
+    <string name="comp_name">Kompyuter nomi</string>
+    <string name="curb_weight">Jilovlash og\'irligi</string>
+    <string name="comp_type">Kompyuter turi</string>
+    <string name="gross_weight">Umumiy og\'irligi</string>
+    <string name="fuel_type">Yoqilg\'i turi</string>
+    <string name="middle_name">Otasining ismi</string>
+    <string name="num_seats">O\'rindiq soni</string>
+    <string name="expire_date">Amal qilish muddati</string>
+    <string name="kuzov_ID">Kuzov raqami</string>
+    <string name="mark_name">Marka nomi</string>
+    <string name="reg_num">Avtomobil raqami</string>
+    <string name="vehicle_type">Avtomobil turi</string>
+    <string name="about_iduz"><![CDATA[<b>UZID</b> ICAO (ePassport, yoki <b>ICAO Doc 9309 terminologiyasida Machine Readable Travel Documents: MRTD</b>) talablariga javob beradigan, shaxsni tasdiqlovchi, elektron hujjatlarga o’rnatilgan RFID chipini o\'qiydigan va tekshiradigan ilova. Ilova o\'rnatilgan chipga kirish uchun mashinada o\'qiladigan zonani (<b>MRZ</b>) optic jihatdan skaner qiladi. So\'ng o\'rnatilgan chipni o\'qiydi va hujjat egasining biografik va biometrik ma\'lumotlarini, shuningdek hujjat to\'g\'risidagi ma\'lumotlarni namoyish etadi, keyin faol autentifikatsiya, hujjat imzosini tekshirish va mamlakat imzosini tekshirish kabi xavfsizlik tekshiruvlari o\'tkaziladi va batafsil natijalar ko\'rsatiladi.
+<p><br><b>RFID</b> o\’z ichiga kiritgan hujjatlar:</br></p>
+<br><b>ID karta</b> - shaxsni tasdiqlovchi rasmiy hujjat, shu jumladan har xil darajadagi elektron tizimlarda qo\’llaniladigan, fotosurati, ismi, shaxsiy raqami, imzo namunasi, karta egasi to\'g\'risidagi biometrik ma\'lumotlarni matn, mashinada o\'qiladigan va elektron shakllarda o\'z ichiga kiritgan plastik karta shaklida ishlab chiqarilgan hujjat.<br>
+<br><br><b>Biometrik pasport</b> - shaxsni tasdiqlovchi rasmiy hujjat, shu jumladan har xil darajadagi elektron tizimlarda qo\'llaniladigan, fotosurati, ismi, shaxsiy raqami, imzo namunasi, karta egasi to\'g\'risidagi biometrik ma\'lumotlarni matn, mashinada o\'qiladigan va elektron shakllarda o\'z ichiga kiritgan qog\'oz formatida ishlab chiqarilgan hujjat.</br></br>
+<br><br><b>Texnik pasport</b> - transport vositasining texnik xususiyatlari va YHXBda ro\'yxatdan o\'tish to\'g\'risidagi ma\'lumotlarga oid barcha ma\'lumotlarni o\'z ichiga kiritgan, plastik karta shaklidagi hujjat. Barcha shaxsiy ma\'lumotlar ham elektron tarzda hujjat chipida saqlanadi.</br></br>
+<br><br><b>Haydovchilik guvohnomasi</b> - plastik karta shaklida ishlab chiqilgan, qalbakilashtirishdan ko\'p darajali himoyaga ega bo\'lgan, karta egasining huquqlarini tasdiqlovchi rasmiy hujjat. Haydovchi haqidagi barcha shaxsiy ma\'lumotlarni o\'z ichiga kiritadi.</br></br>]]>
+</string>
+    <string name="residence_address">Yashash manzili:</string>
+    <string name="birth_place">Tug\'ilgan joyi:</string>
+    <string name="invalid_date_of_birth">Noto\'g\'ri malumot kiritildi</string>
+    <string name="invalid_date_of_expiry">Noto\'g\'ri malumot kiritildi</string>
+    <string name="or_with_qr">Yoki QR kodi bo\'yicha</string>
+    <string name="user_pinfl">PINFL</string>
+</resources>

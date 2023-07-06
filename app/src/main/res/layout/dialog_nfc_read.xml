@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_top_oval_white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/llStartNfcScan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_nfc_scan"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/vector_nfc_scan_card" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/card_instruct"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/llStartNfcScan"
+        app:layout_constraintRight_toRightOf="@+id/llStartNfcScan"
+        app:layout_constraintTop_toTopOf="@+id/llStartNfcScan"
+        app:layout_constraintBottom_toBottomOf="@+id/llStartNfcScan"
+        />
+
+    <com.google.android.material.progressindicator.ProgressIndicator
+        android:id="@+id/progressNfcRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        app:indicatorColor="@color/colorPrimary"
+        app:trackColor="@color/grey_light"
+        android:layout_marginTop="15dp"
+        android:progress="30"
+        android:max="100"
+        app:layout_constraintTop_toBottomOf="@+id/llStartNfcScan"
+        app:layout_constraintBottom_toTopOf="@+id/btnCancel"
+        />
+
+    <uz.mobile.id.utils.CustomButton
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_bg_selector_disabled"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        app:buttonText="@string/cancel"
+        app:buttonTextColor="@color/grey"
+        app:buttonTextSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/progressNfcRead"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

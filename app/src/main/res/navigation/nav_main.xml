@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="uz.mobile.id.ui.main.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash">
+
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/nav_main" />
+
+        <action
+            android:id="@+id/action_splashFragment_to_selectLanguageFragment"
+            app:destination="@id/selectLanguageFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/nav_main" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.mobile.id.ui.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_captureActivity2"
+            app:destination="@id/captureActivity2"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_AboutFragment"
+            app:destination="@id/aboutFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_mrzInfoFragment"
+            app:destination="@id/mrzInfoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_manualEnterTechPassport"
+            app:destination="@id/manualEnterTechPassport" />
+        <action
+            android:id="@+id/action_homeFragment_to_manualEnterInfoFragment"
+            app:destination="@id/manualEnterInfoFragment" />
+
+    </fragment>
+
+    <activity
+        android:id="@+id/captureActivity2"
+        android:name="com.mercuriete.mrz.reader.CaptureActivity"
+        android:label="CaptureActivity"
+        tools:layout="@layout/capture" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="uz.mobile.id.ui.about.AboutFragment"
+        android:label="AboutFragment" />
+
+    <fragment
+        android:id="@+id/manualEnterInfoFragment"
+        android:name="uz.mobile.id.ui.manualinfo.ManualEnterInfoFragment"
+        android:label="ManualEnterInfoFragment">
+        <action
+            android:id="@+id/action_manualEnterInfoFragment_to_mrzInfoFragment"
+            app:destination="@id/mrzInfoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mrzInfoFragment"
+        android:name="uz.mobile.id.ui.mrz.MrzInfoFragment"
+        android:label="MrzInfoFragment">
+        <action
+            android:id="@+id/action_mrzInfoFragment_to_nfcReadDialog"
+            app:destination="@id/nfcReadDialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/nfcReadDialog"
+        android:name="uz.mobile.id.ui.nfc.NfcReadDialog"
+        android:label="NfcReadDialog"
+        tools:layout="@layout/dialog_nfc_read">
+        <action
+            android:id="@+id/action_nfcReadDialog_to_fullInfoFragment"
+            app:destination="@id/fullInfoFragment"
+            app:popUpTo="@id/homeFragment" />
+    </dialog>
+
+    <fragment
+        android:id="@+id/manualEnterTechPassport"
+        android:name="uz.mobile.id.ui.manualinfo.ManualEnterTechPassportFragment"
+        android:label="ManualEnterTechPassport">
+        <action
+            android:id="@+id/action_manualEnterTechPassport_to_mrzInfoFragment"
+            app:destination="@id/mrzInfoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/selectLanguageFragment"
+        android:name="uz.mobile.id.ui.main.SelectLanguageFragment"
+        android:label="SelectLanguageFragment">
+        <action
+            android:id="@+id/action_selectLanguageFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/nav_main" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fullInfoFragment"
+        android:name="uz.mobile.id.ui.fullinfo.FullInfoFragment"
+        android:label="FullInfoFragment"
+        tools:layout="@layout/fragment_full_info">
+
+        <action
+            android:id="@+id/action_fullInfoFragment_to_photoFragment"
+            app:destination="@id/photoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="uz.mobile.id.ui.fullinfo.PhotoFragment"
+        android:label="PhotoFragment" />
+
+</navigation>

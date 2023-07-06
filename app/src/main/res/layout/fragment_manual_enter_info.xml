@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:navigationIcon="@drawable/vector_arrow_left_square"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="26dp"
+        android:text="@string/enter_number_document" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etNumberDocument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="@string/number_document"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/enter_birth_date" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/etDateOfBirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/enter_date_format"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="15dp"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/ivPickerBirthDay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:padding="10dp"
+            android:src="@drawable/vector_date_pick" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvDateOfBirthError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:padding="5dp"
+        android:text="@string/invalid_date_of_birth"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="12dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:text="@string/enter_date_expiry" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/etDateOfExpiry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/enter_date_format"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="15dp"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/ivPickerExpiryDay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:padding="10dp"
+            android:src="@drawable/vector_date_pick" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvDateOfExpiryError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:padding="5dp"
+        android:text="@string/invalid_date_of_expiry"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="12dp"
+        android:visibility="invisible" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <uz.mobile.id.utils.CustomButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/btn_bg_selector_disabled"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        app:buttonText="@string/next"
+        app:buttonTextColor="@color/grey"
+        app:buttonTextSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/progressNfcRead" />
+
+</LinearLayout>

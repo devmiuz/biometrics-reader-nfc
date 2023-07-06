@@ -1,0 +1,111 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "101d21da09a46570942215cd98093e08",
+    "entities": [
+      {
+        "tableName": "cadastre",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`ID` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `objtype` TEXT, `areaCadNum` TEXT, `buildingCadNum` TEXT, `address` TEXT, `area` TEXT, `cadValue` TEXT, `regDateAndNum` TEXT, `owner` TEXT, `passportInfo` TEXT, `taxpayer` TEXT, `legalDoc` TEXT, `legalForm` TEXT, `ownershipPortion` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "ID",
+            "columnName": "ID",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "objtype",
+            "columnName": "objtype",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "areaCadNum",
+            "columnName": "areaCadNum",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "buildingCadNum",
+            "columnName": "buildingCadNum",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "address",
+            "columnName": "address",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "area",
+            "columnName": "area",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "cadValue",
+            "columnName": "cadValue",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "regDateAndNum",
+            "columnName": "regDateAndNum",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "owner",
+            "columnName": "owner",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "passportInfo",
+            "columnName": "passportInfo",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "taxpayer",
+            "columnName": "taxpayer",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "legalDoc",
+            "columnName": "legalDoc",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "legalForm",
+            "columnName": "legalForm",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ownershipPortion",
+            "columnName": "ownershipPortion",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "ID"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"101d21da09a46570942215cd98093e08\")"
+    ]
+  }
+}

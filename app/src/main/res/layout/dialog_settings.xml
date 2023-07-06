@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_rect_oval_white"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/llLotin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O'zbek tili"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:id="@+id/ivCheckLotin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vector_check"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llKrill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ўзбек тили"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:id="@+id/ivCheckKrill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vector_check"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llRussian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Русский"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:id="@+id/ivCheckRussian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vector_check"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:id="@+id/ivCheckEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vector_check"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnOk"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:textSize="17sp"
+        android:background="@drawable/bg_button_blue_active"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="OK"
+        android:textColor="@android:color/white"
+        />
+
+    <!--<TextView
+        android:id="@+id/btnLotin"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:background="@drawable/bg_button_blue_active"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Lotin"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        />
+
+    <TextView
+        android:id="@+id/btnKrill"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:background="@drawable/bg_button_blue_active"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="Кирилл"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:textColor="@android:color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        />-->
+
+</LinearLayout>

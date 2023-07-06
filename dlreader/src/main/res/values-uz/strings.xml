@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Card Reader</string>
+    <string name="user_name_title">Ism</string>
+    <string name="license_num_title">Guvohnoma raqami</string>
+    <string name="birthplace_title">Tug\'ilgan joyi</string>
+    <string name="birthdate_title">Tug\'ilgan sanasi</string>
+    <string name="residence_title">Yashash joyi</string>
+    <string name="issue_place_title">Berilgan joyi</string>
+    <string name="issue_date_title">Berilgan sanasi</string>
+    <string name="expiration_date_title">Amal qilish muddati</string>
+    <string name="category_title">Toifalar</string>
+    <string name="enable_nfc_msg_title">NFC sizda yoqilmagan</string>
+    <string name="enable_nfc_msg">NFC ni yoqmoqchimisiz?</string>
+    <string name="positive_btn">Ha</string>
+    <string name="cancel_btn">Bekor qilish</string>
+    <string name="insert_card_title">Kartani qo\'ying</string>
+    <string name="enable_nfc_title">NFC ni yoqing</string>
+    <string name="loading_text">Yuklanmoqda</string>
+    <string name="done_btn_toolbar">Bajarildi</string>
+    <string name="license_btn_title">Haydovchilik guvohnomasi</string>
+    <string name="cadastre_btn_title">Kadastr guvohnomasi</string>
+    <string name="object_type_title">Obyekt turi</string>
+    <string name="cadastre_num_title">Kadastr raqami</string>
+    <string name="area_cadastre_num_title">Yer uchastkasi kadastr raqami</string>
+    <string name="building_cadastre_num_title">Bino-inshoot kadastr raqami</string>
+    <string name="area_title">Maydoni, ga</string>
+    <string name="owner_title">Mulk egasi</string>
+    <string name="passport_title">Passport seriyasi va raqami</string>
+    <string name="id_title">JSH SHIR</string>
+    <string name="reg_num_date_title">Ro\'yxatdan o\'tkazilgan sana va raqami</string>
+    <string name="address_title">Joylashgan manzil</string>
+    <string name="taxpayer_ID_title">STIR</string>
+    <string name="legal_form_title">Huquqiy shakli</string>
+    <string name="property_own_portion_title">Mulk huquqining ulushi</string>
+    <string name="cadastre_value_title">Kadastr qiymati</string>
+    <string name="legal_doc_title">Mulkka bo\'lgan huquqni tasdiqlovchi hujjatlar</string>
+    <string name="auth_nfc_msg">Guvohnoma ma\'lumotlari noto\'g\'ri yoki noto\'g\'ri karta</string>
+    <string name="fill_gaps_msg">Hamma ma\'lumotlarni kiriting</string>
+    <string name="payment_menu_item">To\'lovlar</string>
+    <string name="open">open</string>
+
+    <!-- Error messages-->
+    <string name="error_nfc_msg">Noto\'g\'ri karta. Boshqa kartani qo\'ying yoki texnik yordam bilan bog\'laning</string>
+
+
+    <string name="payment_water_cold">Suvsoz</string>
+    <string name="payment_water_hot">Issiq quvvat</string>
+    <string name="payment_electricity">Elektr energiyasi</string>
+    <string name="payment_gas">Gaz</string>
+    <string name="payment_utilization">Chiqindi</string>
+    <string name="payment_tax">Soliq</string>
+    <string name="reg_btn">Ro\'yxatdan o\'tish</string>
+
+    <string name="cadastres_menu_item">Kadastrlar</string>
+    <string name="my_cards_menu_item">Mening kartalarim</string>
+
+    <string name="delete_cadastre_menu_item">O\'chirish</string>
+    <string name="cancel_menu_item">Bekor qilish</string>
+</resources>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pattern"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/ivInfo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/vector_info"
+        android:layout_gravity="right"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="16dp"
+        android:padding="10dp"
+        android:foreground="?selectableItemBackground"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Info" />
+
+    <ImageView
+        android:id="@+id/ivSettings"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/vector_settings"
+        android:layout_gravity="left"
+        android:layout_marginTop="34dp"
+        android:layout_marginStart="16dp"
+        android:padding="10dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:foreground="?selectableItemBackgroundBorderless"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Settings" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/vector_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvInfo"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintVertical_bias="0"
+        />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/info"
+        android:textSize="16sp"
+        android:textColor="@color/blue_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/llBottom"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        />
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvIdCard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                android:foreground="?selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="@color/blue"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vector_id_card" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="30dp"
+                        android:textAllCaps="true"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|bottom"
+                        android:text="@string/id_card"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvPassport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                android:foreground="?selectableItemBackgroundBorderless"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vector_passport" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:text="@string/passport"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="bottom"
+            android:layout_marginTop="16dp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvTexPassport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                android:foreground="?selectableItemBackgroundBorderless"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="@color/blue"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vector_tech_passport"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="30dp"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:text="@string/tech_passport"
+                        android:layout_weight="1"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvDriverLicence"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:foreground="?selectableItemBackgroundBorderless"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                app:cardBackgroundColor="@color/blue"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vector_driver_license"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/driver_license"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

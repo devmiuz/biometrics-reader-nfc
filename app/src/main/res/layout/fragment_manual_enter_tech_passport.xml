@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:navigationIcon="@drawable/vector_arrow_left_square"
+        app:title="@string/tech_passport"
+        app:titleTextColor="@android:color/white" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/enter_data_manual"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/enter_car_number" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etCarNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edittext"
+                android:hint="@string/car_number"
+                android:maxLength="9"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/enter_date_of_given_tech_passport" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etDateOfGiven"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="@string/enter_date_format"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="15dp"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/ivPickerGivenDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical"
+                    android:padding="10dp"
+                    android:src="@drawable/vector_date_pick" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvDateOfBirthError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31dp"
+                android:padding="5dp"
+                android:text="@string/invalid_date_of_birth"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="12dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/enter_licence_number" />
+
+            <EditText
+                android:id="@+id/etLicenseNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edittext"
+                android:hint="AAA 0000000"
+                android:inputType="number"
+                android:maxLength="11"
+                android:padding="15dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:text="@string/or_qrcode_scan"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivQrCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_button_blue_active"
+                android:foreground="?selectableItemBackground"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/vector_qr_scaner"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <uz.mobile.id.utils.CustomButton
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/btn_bg_selector_disabled"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                app:buttonText="@string/next"
+                app:buttonTextColor="@color/grey"
+                app:buttonTextSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/progressNfcRead" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
